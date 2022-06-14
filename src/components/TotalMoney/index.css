@@ -1,0 +1,33 @@
+.containerTotal {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  border-bottom: 1px solid #e9ecef;
+  padding: 5px 8px;
+}
+
+.totalValue {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.containerTotal p {
+  font-size: 12px;
+  color: #5b6166;
+}
+
+.finalPrice {
+  color: #fd377e;
+}
+
+/*-----Laptop 1440-------*/
+@media (min-width: 1024px) {
+  .containerTotal {
+    padding: 55px 20px;
+  }
+}

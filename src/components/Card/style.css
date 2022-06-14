@@ -1,0 +1,38 @@
+li {
+  background-color: #f8f9fa;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 15px;
+  border-radius: 4px;
+}
+.Green {
+  border-left: 3px solid #03b898;
+}
+
+.Red {
+  border-left: 3px solid #b82d03;
+}
+.infoCard h3 {
+  font-weight: 700;
+  line-height: 30px;
+  color: #212529;
+}
+
+.infoCard span {
+  font-size: 12px;
+  line-height: 22px;
+  color: #5b6166;
+}
+
+li p {
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+}
+
+.trash {
+  color: #5b6166;
+  margin-top: 6px;
+  cursor: pointer;
+}
